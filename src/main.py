@@ -46,7 +46,7 @@ def run_agent(topic: str):
 if __name__ == "__main__":
     # Example complex topic (Quantum Entanglement used in the original notebook)
     # You can change this to any topic you want!
-    COMPLEX_TOPIC = "RAG in LLM"
+    COMPLEX_TOPIC = input("Enter a complex topic to simplify: ")
     
-    # Run the agent
+    # Run the agent 
     run_agent(COMPLEX_TOPIC)
